@@ -17,6 +17,7 @@ public class ArrayListsEjemplo {
 
   
     public static void main(String[] args) {
+        //Utilizando un Array. Tamaño fijo.
        String[] frutas = new String[5];            
        frutas[0] = "Mango";
        frutas[3] = "Fresa";
@@ -24,7 +25,7 @@ public class ArrayListsEjemplo {
        for (int i = 0; i < 5; i++){
            System.out.println("Posición " + i + ": " + frutas[i]);
        }
-       
+       //Utilizando un ArrayList. Tamaño dinàmico
        ArrayList<String> listaFrutas = new ArrayList<String>();
        System.out.println("******* ArrayList *******************");
        listaFrutas.add("Manzana");
